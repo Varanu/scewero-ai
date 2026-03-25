@@ -1,7 +1,8 @@
 from pathlib import Path
 
 DATA_DIR = Path('../data/unziped_data')
-UAT_ID = '403'
+UAT_ID_BUCURESTI = '403'
+UAT_ID_CLUJ_NAPOCA = '54975'
 
 FIGURE_WIDTH = 14
 FIGURE_HEIGHT = 6
