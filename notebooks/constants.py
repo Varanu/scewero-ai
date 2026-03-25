@@ -41,6 +41,11 @@ MORTA_OUTPUT_DIR = FIRST_PHASE_DIR
 SIRUTA_CODE      = int(UAT_ID_CLUJ_NAPOCA)
 DBF_ENCODINGS    = ['cp852', 'cp1250', 'latin-1']   # fallback chain for Romanian DBFs
 
+# ── Analysis period ───────────────────────────────────────────────────────────
+ANALYSIS_YEAR_START = 1995
+ANALYSIS_YEAR_END   = 2002
+ANALYSIS_PERIOD     = f'{ANALYSIS_YEAR_START}–{ANALYSIS_YEAR_END}'
+
 # ── Mortality EDA constants ──────────────────────────────────────────────────
 SUMMER_MONTHS  = [6, 7, 8]
 AGE_BINS       = [0, 1, 18, 40, 60, 75, 120]
