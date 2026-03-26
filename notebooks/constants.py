@@ -1,7 +1,7 @@
 from pathlib import Path
 
 # ── Base directory (resolved relative to this file, not CWD) ─────────────────
-_ROOT = Path(__file__).resolve().parent.parent        # → scewero-ai/
+_ROOT = Path(__file__).resolve().parent.parent
 
 DATA_DIR        = _ROOT / 'data' / 'unziped_data'
 FIRST_PHASE_DIR = _ROOT / 'data' / 'first_phase'
@@ -36,14 +36,14 @@ NUMERIC_COLS = [
 ]
 
 # ── Mortality data constants ─────────────────────────────────────────────────
-MORTA_DIR        = _ROOT / 'data' / 'raw' / 'Moratilitati'
+MORTA_DIR        = _ROOT / 'data' / 'raw' / 'Mortalitati'
 MORTA_OUTPUT_DIR = FIRST_PHASE_DIR
 SIRUTA_CODE      = int(UAT_ID_CLUJ_NAPOCA)
 DBF_ENCODINGS    = ['cp852', 'cp1250', 'latin-1']   # fallback chain for Romanian DBFs
 
 # ── Analysis period ───────────────────────────────────────────────────────────
 ANALYSIS_YEAR_START = 1995
-ANALYSIS_YEAR_END   = 2002
+ANALYSIS_YEAR_END   = 2024
 ANALYSIS_PERIOD     = f'{ANALYSIS_YEAR_START}–{ANALYSIS_YEAR_END}'
 
 # ── Mortality EDA constants ──────────────────────────────────────────────────
