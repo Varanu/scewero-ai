@@ -5,6 +5,7 @@ _ROOT = Path(__file__).resolve().parent.parent
 
 DATA_DIR        = _ROOT / 'data' / 'unziped_data'
 FIRST_PHASE_DIR = _ROOT / 'data' / 'first_phase'
+FIGURES_DIR     = _ROOT / 'data' / 'first_phase' / 'figures'
 
 UAT_ID_CLUJ_NAPOCA = '54975'
 
